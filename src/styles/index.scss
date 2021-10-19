@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url("/src/img/fon.jpg");
+  }
+.header
+.footer{
+    max-width: 100%;
+    padding: 40px 0;
+}
+.content{
+    max-width: 100%;
+    padding: 80px 0 80px 0;
+}
+.container{
+    margin: 50px auto;
+    max-width: 1170px;
+    padding: 0 15px;
+}
+
+.modal{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+
